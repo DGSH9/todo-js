@@ -1,0 +1,23 @@
+body {
+    background-color: bisque;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.parent1 button {
+    width: 60px;
+    background-color: aqua;
+    border-radius: 10px;
+}
