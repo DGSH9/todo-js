@@ -6,4 +6,10 @@ addTodoButton.addEventListener("click", function () {
     var p = document.createElement('p');
     p.innerText = inputField.value;
     todoContainer.appendChild(p);
+
+
+    // delete todo, if click on paragraph
+    p.addEventListener("click", () => {
+        todoContainer.removeChild(p)
+    })
 })
